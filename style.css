@@ -1,0 +1,65 @@
+#video{
+    width:100%;
+    height:500px;
+    border: none;
+}
+
+#corpo{
+    background: rgb(0,75,145);
+background: linear-gradient(90deg, rgba(0,75,145,1) 0%, rgba(213,161,15,1) 100%);
+text-align: center;
+
+}
+
+.img-responsive{
+    width: 100px;
+    height: 110px;
+}
+
+footer{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: whitesmoke;
+   text-align: center;
+   padding: 15px;
+
+}
+
+.redessociais{
+    list-style: none;
+    
+}
+
+.redessociais li{
+    display: inline-block;
+    margin: 10px;
+
+}
+
+.redessociais .fa-brands{
+  font-size: 40px;
+  color: goldenrod;
+  background-color: cornflowerblue;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+.redessociais .fa-brands:hover{
+
+    transition: all 1s;
+    color: white;
+    opacity: 0.75;
+    transform: translateY(-10px)
+}
+
+#a{
+    width: 40%;
+}
+
+#primeirotexto{
+    width: 500px;
+    margin: auto;
+    color: black;
+}
